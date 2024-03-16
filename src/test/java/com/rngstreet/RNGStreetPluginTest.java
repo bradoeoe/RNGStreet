@@ -1,13 +1,13 @@
-package com.example;
+package com.rngstreet;
 
 import net.runelite.client.RuneLite;
 import net.runelite.client.externalplugins.ExternalPluginManager;
 
-public class ExamplePluginTest
+public class RNGStreetPluginTest
 {
 	public static void main(String[] args) throws Exception
 	{
-		ExternalPluginManager.loadBuiltin(ExamplePlugin.class);
+		ExternalPluginManager.loadBuiltin(RNGStreetPlugin.class);
 		RuneLite.main(args);
 	}
 }
